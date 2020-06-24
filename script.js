@@ -48,11 +48,9 @@ function nextQuestion() {
     } else {
         endGame();
     }
-    // increase time
-    // need to display asnwer is correct 
-
 }
 
+// use modal ffor high score. 
 
 function gameTime() {
     time--;
