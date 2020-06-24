@@ -62,9 +62,6 @@ function gameTime() {
 // endGame only clears questions.
 function endGame() {
     clearInterval(initialTime);
-    // highScore input needs to be recored 
-    // const highscorebox = document.querySelector("#showHighscore")
-    // quiz.style.display = "block";
     const quiz = document.querySelector("#quiz"); // at the end of the questions it goes back to the main page. 
     quiz.style.display = "none";
 }
@@ -92,7 +89,7 @@ const myQuestions = [{
         correctAnswer: "Truck"
     },
     {
-        question: "What is cruise trying to establish?",
+        question: "What is Cruise trying to establish?",
         answer: [
             "Automotive",
             "Robot",
@@ -102,12 +99,12 @@ const myQuestions = [{
         correctAnswer: "Self-driving vehicle service"
     },
     {
-        question: "What is cruise trying to establish?",
+        question: "What is Waymo trying to establish?",
         answer: [
             "Automotive",
             "Robot",
-            "Autopilot",
-            "Self-driving vehicle service"
+            "Self-driving vehicle service",
+            "Autopilot"
         ],
         correctAnswer: "Self-driving vehicle service"
     },
