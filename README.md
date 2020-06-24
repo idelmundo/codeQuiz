@@ -32,6 +32,10 @@ These instructions will get you a copy of the project up and running on your loc
 <br>
 <p> Lines 19-51, I started with a function called start I will be using this later on my code and i also added my initial time so that when the game starts it in seconds whihc is on my line 14. I also added nextQuestion() means i want you to run this function on line 35. On line 24-33 I have my compareAnswer function where I build a counter if the answer is correct add a score and time but if its wrong reduce time then it goes to the next question. In line 35-51 I made another function for nextQuestion were i will be placing my question into my html and added my counter so it knows when it done it will move to the next question. I also added a button element and had to append it so that way it can go to my html without it all this work in function will not work. on line 49 i also added endGame which will end the game after 5 questions.  Here's an example: </p>  <img src="s2.png" alt="s2">
 
+<p>Lines 55-69, On line 55 i made a function for gameTime were I pointed put on line 14 that this time begins at 15seconds. on line 57 telling that this is going to index.html which is pointed out to line 10. Then if time  hits 0 it will end the game. On line 63 i made a function called endGame I can stop the game or the clock when he finished early then it goes back to the main page which is on my line 68 and 69. Here's an example:</p> <img src="s3.png" alt="s3"> 
+
+<p>Lines 74-127, I wrote all my question and aswers then my addEventLister so that way it can be seen on the browser.   Here's an example:</p> <img src="s4.png" alt="s4"> 
+
 
 
 
@@ -43,7 +47,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Deployed Link
 
-* [See Live Site](https://idelmundo.github.io/Password-Generator/)
+* [See Live Site](https://idelmundo.github.io/codeQuiz/)
 
 
 ## Authors
