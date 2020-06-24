@@ -14,7 +14,7 @@ var counter = 0; //move to the next question
 var time = 15; //give 15sec total time game
 var score = 0;
 var intialTime; // helps clear interval stop timer
-var highscorebox = 0;
+
 
 function start() {
     initialTime = setInterval(gameTime, 1000);
@@ -23,7 +23,7 @@ function start() {
 
 function compareAnswer() {
     if (this.textContent === myQuestions[counter].correctAnswer) {
-        score++, time++
+        score++, time += 2
         alert(score);
     } else {
         time -= 2;
@@ -67,11 +67,10 @@ function endGame() {
     // highScore input needs to be recored 
     // const highscorebox = document.querySelector("#showHighscore")
     // quiz.style.display = "block";
-    const quiz = document.querySelector("#quiz"); // at the end of question it display the main page again
+    const quiz = document.querySelector("#quiz"); // at the end of the questions it goes back to the main page. 
     quiz.style.display = "none";
-
-
 }
+
 
 // Question starts here
 const myQuestions = [{
